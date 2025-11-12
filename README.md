@@ -61,6 +61,7 @@ python main.py
 - The software displays some shades of a color, your task is to select the odd-one-out -- the shade that is a different color than the others, as you progress, the quiz will get harder.
 
 ## Donate
+Support me on Ko-Fi plssss (the donation link may change in the future).
 [<img width="200" alt="support_me_on_kofi_beige" src="https://github.com/user-attachments/assets/61ad6637-5937-43df-9f22-eccfce5d78c4" />](https://ko-fi.com/navaden)
 
 
