@@ -1,6 +1,5 @@
 # CVDtest
-A color blindness quiz written in python using tkinter (school project)
-
+CVDtest (ColorVisionDeficiencyTest) is a color blindness quiz I've written for a school project in python using tkinter.
 
 <a href="https://www.python.org/">
         <img src="https://img.shields.io/badge/Python-white?style=for-the-badge&logo=python" alt="Visit Python website"></a>
@@ -11,15 +10,19 @@ A color blindness quiz written in python using tkinter (school project)
 
 <details open="open">
   <summary>Table of Contents</summary>
-  <ol>
+  <ul>
+    <li><a href="#DISCLAIMER">DISCLAIMER</a></li>
     <li><a href="#Prerequisites">Prerequisites</a></li>
     <li><a href="#How to run">How to run</a></li>
     <li><a href="#Usage">Usage</a></li>
     <li><a href="#Usage">Usage</a></li>
     <li><a href="#Donate">Donate</a></li>
     <li><a href="#Credits">Credits</a></li>
-  </ol>
+  </ul>
 </details>
+
+## DISCLAIMER
+This software is not intended to, nor should it be used as, a formal test or medical examination for color blindness. If you believe you may have a vision issue or require medical advice, please consult a qualified eye care professional.
 
 ## Prerequisites
 - Supported operating system
@@ -40,3 +43,6 @@ A color blindness quiz written in python using tkinter (school project)
 
 ## Credits
 Everything developed by hand by Navaden (Matic Tement)
+
+## License
+This project is licensed under the MIT license, for more information see the file labeled "LICENSE".
