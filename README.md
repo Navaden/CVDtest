@@ -5,7 +5,7 @@ __Note: There is currently no way to use the project, please wait for me to fini
 
 <div align="center">
 <a href="https://www.sers.si/">
-        <img src="https://img.shields.io/badge/'Srednja Elektro-Računalniška Šola Maribor'-blue?style=for-the-badge"></a>
+        <img src="https://img.shields.io/badge/'Srednja Elektro--Računalniška Šola Maribor'-blue?style=for-the-badge"></a>
 <br>
 <a href="https://www.python.org/">
         <img src="https://img.shields.io/badge/Python-white?style=for-the-badge&logo=python" alt="Visit Python website"></a>
