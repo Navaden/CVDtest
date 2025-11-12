@@ -48,7 +48,7 @@ This software is not intended to, nor should it be used as, a formal test or med
 To download and run the software from the source code, follow the following steps:
 ```bash
 # 1. Git clone (or download) the source code
-git clone [https://github.com/CyberTimon/RapidRAW.git](https://github.com/Navaden/CVDtest.git)
+git clone https://github.com/Navaden/CVDtest.git
 
 # 2. Change to inside the directory
 cd CVDtest
