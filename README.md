@@ -22,7 +22,6 @@ __Note: There is currently no way to use the project, please wait for me to fini
     <li><a href="#Prerequisites">Prerequisites</a></li>
     <li><a href="#How to run">How to run</a></li>
     <li><a href="#Usage">Usage</a></li>
-    <li><a href="#Usage">Usage</a></li>
     <li><a href="#Donate">Donate</a></li>
     <li><a href="#Credits">Credits</a></li>
   </ul>
