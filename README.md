@@ -1,5 +1,6 @@
 # CVDtest
 CVDtest (ColorVisionDeficiencyTest) is a color blindness quiz I've written for a school project in python using tkinter.
+__Note: There is currently no way to use the project, please wait for me to finish it enough to upload it here.__
 
 <a href="https://www.python.org/">
         <img src="https://img.shields.io/badge/Python-white?style=for-the-badge&logo=python" alt="Visit Python website"></a>
@@ -36,7 +37,7 @@ This software is not intended to, nor should it be used as, a formal test or med
 
 ## Usage
 - Type your name and select the button "Begin"
-- Select the odd-one-out color -- the one that is a different shade than the others
+- The software displays some shades of a color, your task is to select the odd-one-out -- the shade that is a different color than the others, as you progress, the quiz will get harder.
 
 ## Donate
 (add a donation link here, future me)
