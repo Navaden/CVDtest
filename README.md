@@ -45,6 +45,8 @@ This software is not intended to, nor should it be used as, a formal test or med
 ```bash
 # 1. Git clone (or download) the source code
 git clone https://github.com/CyberTimon/RapidRAW.git
+
+# 2. Change to inside the directory
 cd CVDtest
 
 # 3. Run the software with python
