@@ -42,8 +42,14 @@ This software is not intended to, nor should it be used as, a formal test or med
 1. Install the correct executable file for your operating system
 2. Run the executable
 ### Source code
-1. Git clone (or download) the source code
-2. Run the source code with a python interpreter
+```bash
+# 1. Git clone (or download) the source code
+git clone https://github.com/CyberTimon/RapidRAW.git
+cd CVDtest
+
+# 3. Run the software with python
+python main.py
+```
 
 ## Usage
 - Type your name and select the button "Begin"
