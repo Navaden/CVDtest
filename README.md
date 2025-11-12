@@ -2,12 +2,14 @@
 CVDtest (ColorVisionDeficiencyTest) is a color blindness quiz I've written for a school project in python using tkinter.
 __Note: There is currently no way to use the project, please wait for me to finish it enough to upload it here.__
 
+<a href="https://www.sers.si/">
+        <img src="https://img.shields.io/badge/'Srednja Elektro-Računalniška Šola Maribor'-blue?style=for-the-badge"></a>
+<br>
 <a href="https://www.python.org/">
         <img src="https://img.shields.io/badge/Python-white?style=for-the-badge&logo=python" alt="Visit Python website"></a>
 <a href="https://docs.python.org/3/library/tkinter.html">
         <img src="https://img.shields.io/badge/TKinter-white?style=for-the-badge&logo=python" alt="Visit TKinter on Python website"></a>
-<a href="https://www.sers.si/">
-        <img src="https://img.shields.io/badge/S3R5-blue?style=for-the-badge"></a>
+
 
 <details open="open">
   <summary>Table of Contents</summary>
@@ -32,8 +34,12 @@ This software is not intended to, nor should it be used as, a formal test or med
 - Nothing else, all other dependencies are built-into python already
 
 ## How to run
-1. Install the correct executable file for your operating system (or source code)
-2. Run the executable (or source code with a python interpreter
+### Release
+1. Install the correct executable file for your operating system
+2. Run the executable
+### Source code
+1. Git clone (or download) the source code
+2. Run the source code with a python interpreter
 
 ## Usage
 - Type your name and select the button "Begin"
