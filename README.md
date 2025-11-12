@@ -59,7 +59,7 @@ python main.py
 (add a donation link here, future me)
 
 ## Credits
-Everything developed by hand by Navaden (Matic Tement)
+Everything here developed by Navaden (me)
 
 ## License
 This project is licensed under the MIT license, for more information see the file labeled "LICENSE".
