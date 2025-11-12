@@ -11,6 +11,8 @@ __Note: There is currently no way to use the project, please wait for me to fini
         <img src="https://img.shields.io/badge/Python-white?style=for-the-badge&logo=python" alt="Visit Python website"></a>
 <a href="https://docs.python.org/3/library/tkinter.html">
         <img src="https://img.shields.io/badge/TKinter-white?style=for-the-badge&logo=python" alt="Visit TKinter on Python website"></a>
+<a href="https://docs.python.org/3/library/webbrowser.html">
+        <img src="https://img.shields.io/badge/WebBrowser-white?style=for-the-badge&logo=python" alt="Visit WebBrowser on Python website"></a>
 </div>
 
 <details open="open">
