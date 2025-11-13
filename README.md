@@ -31,6 +31,7 @@ __Note: There is currently no way to use the project, please wait for me to fini
   </ul>
 </details>
 
+
 ## DISCLAIMER
 This software is not intended to, nor should it be used as, a formal test or medical examination for color blindness. If you believe you may have a vision issue or require medical advice, please consult a qualified eye care professional.
 
@@ -39,6 +40,7 @@ This software is not intended to, nor should it be used as, a formal test or med
 - A good display
 - Python installed (if you wanna run the source code of the project, or modify it)
 - Nothing else, all other dependencies are built-into python already
+
 
 ## How to run
 ### Release
@@ -57,16 +59,21 @@ cd CVDtest
 python main.py
 ```
 
+
 ## Usage
 - Type your name and select the button "Begin"
 - The software displays some shades of a color, your task is to select the odd-one-out -- the shade that is a different color than the others, as you progress, the quiz will get harder.
 
+
 ## Donate
 If you wanna donate anything to me, you can buy me something off of my bandcamp wishlist.
+
 https://bandcamp.com/navaden
+
 
 ## Credits
 Everything here developed by Navaden (me)
+
 
 ## License
 This project is licensed under the MIT license, for more information see the file labeled "LICENSE".
