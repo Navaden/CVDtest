@@ -2,7 +2,7 @@
 
 
 # CVDtest
-CVDtest (ColorVisionDeficiencyTest) is a color blindness quiz I've written for a school project in python using tkinter.
+CVDtest (ColorVisionDeficiencyTest) is a color blindness quiz I've written for a school project in python using tkinter. It works more like a game really, though not a very fun one.
 
 __Note: There is currently no way to use the project, please wait for me to finish it enough to upload it here.__
 
