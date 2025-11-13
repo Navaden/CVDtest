@@ -69,4 +69,4 @@ Everything here developed by Navaden (me)
 
 
 ## License
-This project is licensed under the MIT license, for more information see the file labeled "LICENSE".
+This project is licensed under the GPL-3 license, for more information see the file labeled "LICENSE".
