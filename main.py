@@ -118,25 +118,52 @@ def start_game():
     label_level = Label(window,text=get_label_level_text(level))
     label_level.place(x=10,y=80)
 
+    prompt = Label(window, text="Which is the odd one out ?")
+    prompt.place(x=300,y=100)
+
     # namecard = Label(window,text=str_fname)
     # namecard.place(x=10,y=100)
 
     square1 = Canvas(window, width=100, height=100, bg=color(1))
     square1.place(x=80,y=150)
+    button_choice1 = Button(window, text="Square 1", command=pressed(1))
+    button_choice1.place(x=90,y=260)
 
     square2 = Canvas(window, width=100, height=100, bg=color(2))
     square2.place(x=200,y=150)
+    button_choice2 = Button(window, text="Square 2", command=pressed(2))
+    button_choice2.place(x=210,y=260)
 
     square3 = Canvas(window, width=100, height=100, bg=color(3))
     square3.place(x=320,y=150)
+    button_choice3 = Button(window, text="Square 3", command=pressed(3))
+    button_choice3.place(x=330,y=260)
 
     square4 = Canvas(window, width=100, height=100, bg=color(4))
     square4.place(x=440,y=150)
+    button_choice4 = Button(window, text="Square 4", command=pressed(4))
+    button_choice4.place(x=450,y=260)
 
     square5 = Canvas(window, width=100, height=100, bg=color(5))
     square5.place(x=560,y=150)
+    button_choice5 = Button(window, text="Square 5", command=pressed(5))
+    button_choice5.place(x=570,y=260)
 
     label_odd = Label(window, text=odd_one)
     label_odd.place(x=0,y=0)
+
+def pressed(x):
+    if x == odd_one:
+        return correct()
+    else:
+        return wrong()
+
+def correct():
+    odd_one = random.randint(1,5)
+    print("CORRECT GUESS")
+
+def wrong():
+    print("WRONG GUESS")
+
 
 window.mainloop()
