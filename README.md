@@ -10,7 +10,7 @@ __Note: The project is not finished, it does NOT work currently.__
         <img src="https://img.shields.io/badge/Srednja Elektro--Računalniška Šola Maribor-blue?style=for-the-badge"></a>
 <br>
 <a href="https://www.python.org/">
-        <img src="https://img.shields.io/badge/Python-white?style=for-the-badge&logo=python" alt="Visit Python website"></a>
+        <img src="https://img.shields.io/badge/Python-ffd343?style=for-the-badge&logo=python" alt="Visit Python website"></a>
 <a href="https://docs.python.org/3/library/tkinter.html">
         <img src="https://img.shields.io/badge/TKinter-white?style=for-the-badge&logo=python" alt="Visit TKinter on Python website"></a>
 <a href="https://docs.python.org/3/library/webbrowser.html">
