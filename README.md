@@ -6,9 +6,6 @@ CVDtest (ColorVisionDeficiencyTest) is a color blindness quiz I've written for a
 __Note: The project is not finished, it does NOT work currently.__
 
 <div align="center">
-<a href="https://www.sers.si/">
-        <img src="https://img.shields.io/badge/Srednja Elektro--Računalniška Šola Maribor-blue?style=for-the-badge"></a>
-<br>
 <a href="https://www.python.org/">
         <img src="https://img.shields.io/badge/Python-ffd343?style=for-the-badge&logo=python" alt="Visit Python website"></a>
 <a href="https://docs.python.org/3/library/tkinter.html">
