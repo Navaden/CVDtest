@@ -56,7 +56,6 @@ odd_one = random.randint(1,5)
 # def gen_odd(level):
 #     if level == 1:
 
-
 def color(x):
     #gen_odd(1)
     for num in range(x):
@@ -64,8 +63,6 @@ def color(x):
             return "#e480f4"
         else:
             return "#c929e5"
-
-
 
 window = Tk()
 window.resizable(False, False)
@@ -165,7 +162,6 @@ def pressed(x):
         return correct()
     else:
         return wrong()
-    
 
 def correct():
     odd_one = random.randint(1,5)
@@ -180,3 +176,4 @@ def wrong():
 
 
 window.mainloop()
+
