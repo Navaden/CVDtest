@@ -8,6 +8,9 @@
 from tkinter import *
 import webbrowser
 import random
+from functools import partial
+
+results = [X, X, X, X, X, X, X, X, X, X]
 
 def show_credits():
     credits = Tk()
@@ -126,27 +129,27 @@ def start_game():
 
     square1 = Canvas(window, width=100, height=100, bg=color(1))
     square1.place(x=110,y=150)
-    button_choice1 = Button(window, text="Square 1", command=pressed(1))
+    button_choice1 = Button(window, text="Square 1", command=partial(pressed, 1))
     button_choice1.place(x=120,y=260)
 
     square2 = Canvas(window, width=100, height=100, bg=color(2))
     square2.place(x=230,y=150)
-    button_choice2 = Button(window, text="Square 2", command=pressed(2))
+    button_choice2 = Button(window, text="Square 2", command=partial(pressed, 2))
     button_choice2.place(x=240,y=260)
 
     square3 = Canvas(window, width=100, height=100, bg=color(3))
     square3.place(x=350,y=150)
-    button_choice3 = Button(window, text="Square 3", command=pressed(3))
+    button_choice3 = Button(window, text="Square 3", command=partial(pressed, 3))
     button_choice3.place(x=360,y=260)
 
     square4 = Canvas(window, width=100, height=100, bg=color(4))
     square4.place(x=470,y=150)
-    button_choice4 = Button(window, text="Square 4", command=pressed(4))
+    button_choice4 = Button(window, text="Square 4", command=partial(pressed, 4))
     button_choice4.place(x=480,y=260)
 
     square5 = Canvas(window, width=100, height=100, bg=color(5))
     square5.place(x=590,y=150)
-    button_choice5 = Button(window, text="Square 5", command=pressed(5))
+    button_choice5 = Button(window, text="Square 5", command=partial(pressed, 5))
     button_choice5.place(x=600,y=260)
 
     button_continue = Button(window, text="Continue >")
@@ -162,13 +165,18 @@ def pressed(x):
         return correct()
     else:
         return wrong()
+    
 
 def correct():
     odd_one = random.randint(1,5)
     print("CORRECT GUESS")
+    results[level - 1] = "T"
+    print(results)
 
 def wrong():
     print("WRONG GUESS")
+    results[level - 1] = "F"
+    print(results)
 
 
 window.mainloop()
