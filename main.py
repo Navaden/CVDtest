@@ -149,10 +149,10 @@ def start_game():
     button_choice5 = Button(window, text="Square 5", command=partial(pressed, 5))
     button_choice5.place(x=600,y=260)
 
-    button_continue = Button(window, text="Continue >")
+    button_continue = Button(window, text="Continue >", command=proceed)
     button_continue.place(x=420,y=350)
-    button_continue = Button(window, text="Give up")
-    button_continue.place(x=320,y=350)
+    button_giveup = Button(window, text="Give up")
+    button_giveup.place(x=320,y=350)
 
     label_odd = Label(window, text=odd_one)
     label_odd.place(x=0,y=0)
@@ -168,12 +168,22 @@ def correct():
     print("CORRECT GUESS")
     results[level - 1] = "T"
     print(results)
+    proceed()
 
 def wrong():
     print("WRONG GUESS")
     results[level - 1] = "F"
     print(results)
+    proceed()
 
+def proceed():
+    global level
+    global label_level
+    level += 1
+    print("Hello world!")
+    label_level.destroy()
+    label_level = Label(window,text=get_label_level_text(level))
+    label_level.place(x=10,y=80)
 
 window.mainloop()
 
