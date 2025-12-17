@@ -142,7 +142,13 @@ def start_game():
     label_odd.place(x=0,y=0)
 
 def finished():
-    pass
+    print("Finished")
+    window_results = Tk()
+    window_results.resizable(False, False)
+    window_results.geometry("800x600")
+    window_results.title("CVDtest")
+    window_results.config(background="lightgray")
+    window_results.destroy()
 
 def pressed(x):
     if x == odd_one:
@@ -164,14 +170,15 @@ def wrong():
     proceed()
 
 def proceed():
+    global level
+    level += 1
     if level <= 10:
-        global level
-        level += 1
         print("Hello world!")
         label_level = Label(window,text=get_label_level_text(level))
         label_level.place(x=10,y=80)
     else:
         finished()
+        level = 10
 
 window.mainloop()
 
