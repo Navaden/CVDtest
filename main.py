@@ -141,6 +141,9 @@ def start_game():
     label_odd = Label(window, text=odd_one)
     label_odd.place(x=0,y=0)
 
+def finished():
+    pass
+
 def pressed(x):
     if x == odd_one:
         return correct()
@@ -161,13 +164,14 @@ def wrong():
     proceed()
 
 def proceed():
-    global level
-    global label_level
-    level += 1
-    print("Hello world!")
-    label_level.destroy()
-    label_level = Label(window,text=get_label_level_text(level))
-    label_level.place(x=10,y=80)
+    if level <= 10:
+        global level
+        level += 1
+        print("Hello world!")
+        label_level = Label(window,text=get_label_level_text(level))
+        label_level.place(x=10,y=80)
+    else:
+        finished()
 
 window.mainloop()
 
