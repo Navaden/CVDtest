@@ -44,10 +44,6 @@ def get_label_level_text(level):
     return(f"Level: {level}/10")
 
 def begin_test():
-    label_fname.place_forget()
-    label_lname.place_forget()
-    str_fname.place_forget()
-    str_lname.place_forget()
     button_begin.place_forget()
     start_game()
 
@@ -76,18 +72,6 @@ heading = Label(window,text="CVDtest",
               pady=10
               )
 heading.place(x=10,y=10)
-
-label_fname = Label(window,text="Please type your first name:")
-label_fname.place(x=200,y="180")
-
-str_fname = Entry(window,width="50")
-str_fname.place(x=200,y=200)
-
-label_lname = Label(window,text="Please type your last name:")
-label_lname.place(x=200,y="230")
-
-str_lname = Entry(window,width="50")
-str_lname.place(x=200,y=250)
 
 button_credits = Button(window,
                 text="Credits",
