@@ -105,9 +105,6 @@ def start_game():
     prompt = Label(window, text="Which is the odd one out ?")
     prompt.place(x=320,y=100)
 
-    # namecard = Label(window,text=str_fname)
-    # namecard.place(x=10,y=100)
-
     square1 = Canvas(window, width=100, height=100, bg=color(1))
     square1.place(x=110,y=150)
     button_choice1 = Button(window, text="Square 1", command=partial(pressed, 1))
@@ -143,12 +140,14 @@ def start_game():
 
 def finished():
     print("Finished")
-    window_results = Tk()
-    window_results.resizable(False, False)
-    window_results.geometry("800x600")
-    window_results.title("CVDtest")
-    window_results.config(background="lightgray")
-    window_results.destroy()
+    wresults = Tk()
+    wresults.resizable(False, False)
+    wresults.geometry("900x600")
+    wresults.title("Results")
+    wresults.config(background="lightgray")
+    lresults = Label(wresults, text=results)
+    lresults.place(x=100,y=100)
+    window.destroy()
 
 def pressed(x):
     if x == odd_one:
